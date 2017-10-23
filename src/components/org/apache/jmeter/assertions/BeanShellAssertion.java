@@ -95,7 +95,7 @@ public class BeanShellAssertion extends BeanShellTestElement implements Assertio
             bshInterpreter.set("RequestHeaders", response.getRequestHeaders());//$NON-NLS-1$
             bshInterpreter.set("SampleLabel", response.getSampleLabel());//$NON-NLS-1$
             bshInterpreter.set("SamplerData", response.getSamplerData());//$NON-NLS-1$
-            bshInterpreter.set("Successful", response.isSuccessful());//$NON-NLS-1$
+           // bshInterpreter.set("Successful", response.isSuccessful());//$NON-NLS-1$
 
             // The following are used to set the Result details on return from
             // the script:
